@@ -11,4 +11,4 @@ for i in range(N):
     i = i + 1
     b = i * b
     
-    print(b, end=" ")
+print(b, end =" ")

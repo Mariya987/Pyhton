@@ -6,18 +6,18 @@
 # - 0.67 -> 13
 # - 198.45 -> 27
 
-def GetSum():
-    num = float(input('Введите вещественное число: '))
-    new_num = (len(num)) 
-    num * 10 ** new_num
-    
-    
-    # (num % 10) == 0:
-    #     new_num = int(num[0] + num[i])
-    #     i =+ 1
-    # print(new_num)
-    # return
+x = input('Введите число ')
 
-GetSum()
- 
+def summa(x): 
+    if float(x) < 0:
+        x = float(x) * (-1)
+    number = 0
+
+    for i in str(x):
+        if i != '.':
+            number += int(i)
+    return number
+
+   
+print(f'Сумма чисел равна {summa(x)}')
 
