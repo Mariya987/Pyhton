@@ -8,7 +8,8 @@
 
 x = input('Введите число ')
 
-def summa(x): 
+
+def summa(x):
     if float(x) < 0:
         x = float(x) * (-1)
     number = 0
@@ -18,6 +19,5 @@ def summa(x):
             number += int(i)
     return number
 
-   
-print(f'Сумма чисел равна {summa(x)}')
 
+print(f'Сумма чисел равна {summa(x)}')
