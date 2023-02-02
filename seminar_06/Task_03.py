@@ -13,7 +13,7 @@ def name_list(*args):
     names_dict = {}
     for i in sorted(args):
         res = i[0]
-        if letr not in names_dict:
+        if res not in names_dict:
             names_dict[res] = [i]
         else:
             names_dict[res] +=[i]
